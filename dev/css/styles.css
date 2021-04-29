@@ -1,3 +1,10 @@
 * {
     background-color: white;
 }
+nav{
+    position: relative;
+    z-index: 980;
+}
+#steps{
+    
+}
