@@ -35,10 +35,10 @@
             </nav>
         </div>
     </header>
-
+<!--
     <section id="hero">
-        <div id="tm-hero" class="tm-hero uk-block uk-block-large uk-cover-background uk-flex uk-flex-middle tm-hero-padding uk-contrast" 
-            style="background-image: url('/storage/Layer%2018.jpg');">
+        <div id="tm-hero" class="tm-hero tm-hero-padding uk-background-cover uk-flex uk-flex-middle uk-background-fixed uk-background-image@s" 
+            style="background-image: url('../assets/images/hero.jpg');">
             <div class="uk-container uk-container-center">
                 <section class="uk-grid uk-grid-match" data-uk-grid-margin="">
                         <div class="uk-width-medium-1-1 uk-row-first">
@@ -50,56 +50,78 @@
                     </section>
                 </div>
             </div>
-
-
-        
-        <!-- <form action="" method="get" class="address">
-          (Working button just incase) <div class="address">
-                <input type="text" name="hAddress" id="hAdress" placeholder="Enter your home address">
-            </div>
-            <div class="address">
-                <input type="submit" value="Get Cash Now!">
-            </div>
-            <p uk-margin>
-                <a class="uk-button uk-button-default uk-text-capitalize" href="#">Get Cash Now!</a>
-            </p>
-        </form> -->
     </section>
+-->
 
-    <section id="steps" class="uk-padding-large">
+    <section id="steps" class="uk-padding-large uk-container">
         <div id="rt" class="uk-text-center">
             <h2> Sell your house to us in three easy steps!</h2>
         </div>
-        <div class="uk-flex uk-position-center">
-            <div id="step-one" class="uk-flex-between">
-                <h4>Contact Us</h4>
-                <p uk-margin>Fill out the "Contact Us" page and it will send us an email! </p>
+        <div class="uk-grid">
+            <div id="step-one" class="uk-width-1-3 uk-text-center">
+                <h3>Contact Us</h3>
+                <span href="" uk-icon="icon: mail; ratio: 3"></span>
+                <p>Fill out the "Contact Us" page <br> and it will send us an email! </p>
             </div> 
-            <div id="step-two" class="uk-flex-between">
-                <h4>Getting a Cash Offer</h4>
-                <p uk-margin>You will sell your house directly to us! </p>
+            <div id="step-two" class="uk-width-1-3 uk-text-center">
+                <h3>Getting a Cash Offer</h3>
+                <span href="" uk-icon="icon: lock; ratio: 3"></span>
+                <p>You will sell your house directly to us! </p>
             </div>
-            <div id="step-three" class="uk-flex-between">
-                <h4>Closing</h4>
-                <p> We will do a painless closing, we will close the house at your speed.</p>
+            <div id="step-three" class="uk-width-1-3 uk-text-center">
+                <h3>Closing</h3>
+                <span href="" uk-icon="icon: home; ratio: 3"></span>
+                <p> We will do a painless closing. <br> We will close the house at your speed.</p>
             </div>
         </div>
     </section>
 
 
 <!--  (Maybe Use)
-    <section id="find location">
-        
+    <section id="find location"> tm-hero tm-hero-padding uk-background-cover uk-flex uk-flex-middle uk-background-fixed uk-background-image@s 
+    <div class="uk-panel uk-text-center ">
+
+        id="tm-hero" uk-img class="tm-hero tm-hero-padding uk-background-norepeat uk-background-cover uk-section uk-section-large uk-flex" 
+            style="background-image: url('../assets/images/hero.jpg');"
+            class="uk-height-medium uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="../assets/images/hero.jpg" uk-img
+            
+        <div class="uk-container uk-container-xsmall uk-container-center">
+                <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack" uk-grid>
+                        <div class="uk-width-1-1@m uk-first-column">
+    -->
+    <section id="hero">
+        <div id="tm-hero" uk-img class="tm-hero tm-hero-padding uk-background-norepeat uk-background-cover uk-section uk-section-large uk-flex" 
+        style="background-image: url('../assets/images/hero.jpg');">
+        <div class="uk-container uk-container-xsmall uk-container-center">
+            <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack" uk-grid>
+                <div class="uk-width-1-1@m uk-first-column">
+                    <h1 class="uk-heading-large uk-text-center">Texas Homes for Cash</h1>
+                    <a class="uk-button uk-button-default uk-text-capitalize" href="#">Get Cash Now!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--        
     </section> 
 -->
-    
-
     <script src="uikit/dist/js/uikit-icons.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
     <script src="../scripts/scripts.js"></script>
 </body>
 <footer>
-    
+    <section id="contactInfo">
+        <address>
+            25218 Grogans Park Dr. <br/>
+            SPRING, TX 77380<br/>
+            <span href="" uk-icon="icon: receiver; ratio: 1"></span>P: <br>
+            <span href="" uk-icon="icon: mail; ratio: 1"></span>E: </span><a href="mailto:#"></a>
+        </address>
+    </section>
+    <section id="copy-right">
+        <p>
+            &copy; 2021 TexasHomesForCash. All Rights Reserved.
+        </p>
+    </section>
 </footer>
 </html>
