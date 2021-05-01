@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css"/>
+    <link rel="stylesheet" href="/dev/css/contact_us.css">
+    <title>TexasHomesForCash</title>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+    <script src="../scripts/contact_script.js"></script>
+</head>
+<body>
+    <header >
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar"
+            class="uk-sticky tm-header">
+            <nav class="uk-navbar uk-navbar-sticky uk-margin" uk-navbar>
+                <!-- <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="#">Texas Homes for Cash</a>
+                </div> -->
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li id="home">
+                            <a href="./website.html">Home</a>
+                        </li>
+                        <li id="why">
+                            <a href="#">Why Sell to Us</a>
+                        </li>
+                        <li id="how">
+                            <a href="#">How it Works</a>
+                        </li>
+                        <li id="FAQ">
+                            <a href="./faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="info">
+        <div>
+            <h2>1. Add Address of Property</h2>
+            <div class="input-field small-12 colums">
+                <input class="blank" id="home_address" name="home_address" type="text" required placeholder="Home Address">
+                <input class= "blank" id="lf-city" name="lf-city" type="text" required placeholder="City">
+                <input class= "blank" id="lf-state" name="lf-state" type="text" required placeholder="State">
+                <input class="blank" pattern="(\d{5}([\-]\d{4})?)" id="lf-postal" name="lf-postal" type="text" required placeholder="Postal Code">
+            </div>
+        </div>
+        <div>
+            <h2>2. Add Your Contact Info.</h2>
+            <div class="input-field small-12 colums">
+                <input class="blank" id="first_name" name="first_name" type="text" required placeholder="First Name">
+                <input class="blank" id="last_name" name="last_name" type="text" required placeholder="Last Name">
+                <input class= "blank" id="phone" name="phone" type="tel" required placeholder="Phone Number">
+                <input class= "blank" id="email" name="email" type="email" required placeholder="Email">
+            </div>
+        </div>
+        <div class="colums has-content">
+            <input type="submit" name="info_submit" value="Get Cash Offer!">
+        </div>
+    </section>
+</body>
+<footer class="uk-background-muted">
+    <section id="contactInfo" class="uk-background-muted">
+        <address>
+            25218 Grogans Park Dr. <br/>
+            SPRING, TX 77380<br/>
+            <span href="#" uk-icon="icon: receiver; ratio: 1"></span>P: <br>
+            <span href="#" uk-icon="icon: mail; ratio: 1"></span>E: </span><a href="mailto:#"></a>
+        </address>
+    </section>
+    <section id="copy-right" class="uk-background-muted">
+        <p>
+            &copy; 2021 TexasHomesForCash. All Rights Reserved.
+        </p>
+    </section>
+</footer>
+</html>
